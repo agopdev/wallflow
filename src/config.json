@@ -1,0 +1,33 @@
+{
+	"config": {
+    	"interval": 300,
+		"history": 5
+  	},
+	"wallhaven": {
+		"tags": [
+        	"landscapes",
+        	"city lights"
+    	],
+      	"resolutions": [
+          	"1080x720",
+          	"1280x720",
+          	"1366x768",
+          	"1600x900",
+          	"1920x1080",
+          	"2560x1440",
+          	"3840x2160"
+      	],
+      	"categories": {
+          	"general": true,
+          	"anime": true,
+          	"people": true
+      	},
+      	"purity": {
+          	"sfw": true,
+          	"sketchy": false,
+          	"nsfw": false
+      	},
+      	"sorting": "random",
+      	"apikey": ""
+  	}
+}

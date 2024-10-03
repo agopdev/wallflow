@@ -13,6 +13,8 @@ ____    __    ____  ___       __       __       _______  __        ______   ____
 
 **IMPORTANT:** I wrote this script for myself, even if I tried to make this compatible with others devices I can´t guarantee that works on every machine. If you found a problem or know how to solve it. Create a new issue.
 
+This is a fork from [Xfwall](https://github.com/agopdev/xfwall), another bash script that allows you to change your wallpaper, but it is limited to XFCE. The goal of this new script is to add many new features and, primarily, to ensure compatibility with the majority of the most popular Linux desktop environments.
+
 __Programs required:__ The following software is necessary to execute Wallflow with no problems
 - curl
 - jq
@@ -59,7 +61,7 @@ __Wallflow can be uninstalled by following these steps:__
     $ ./install.sh --uninstall
     ```
 
-+ Remove cloned folder
++ Remove cloned directory
 
     ```bash
     $ rm -rf ./wallflow

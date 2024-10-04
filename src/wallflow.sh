@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export CONFIG_FILE_PATH="$HOME/.config/wallflow/config.json"
-export WALLFLOW_VERSION="0.1.0"
+export WALLFLOW_VERSION="0.1.1"
 export OUTPUT_JSON_FILE_PATH="/tmp/wallflow_response.json"
 
 # Monitor name

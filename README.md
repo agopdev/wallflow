@@ -9,7 +9,7 @@ ____    __    ____  ___       __       __       _______  __        ______   ____
     \__/  \__/ /__/     \__\ |_______||_______||__|     |_______| \______/      \__/  \__/     
 ```
 
-**Wallflow** is a bash script to set wallpapers from **Wallhaven** API in most **Popular** Linux Desktop Enviroments. Works with X11.
+**Wallflow** is a bash script to set wallpapers from **Wallhaven** API in most **Popular** Linux Desktop Environments. Works with X11.
 
 **IMPORTANT:** I wrote this script for myself, even if I tried to make this compatible with others devices I can´t guarantee that works on every machine. If you found a problem or know how to solve it. Create a new issue.
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export CONFIG_FILE_PATH="$HOME/.config/wallflow/config.json"
-export WALLFLOW_VERSION="0.1.0"
+export WALLFLOW_VERSION="0.1.1"
 export OUTPUT_JSON_FILE_PATH="/tmp/wallflow_response.json"
 
 # Monitor name
@@ -134,6 +134,7 @@ update_wallpaper() {
                 ;;
             gnome)
                 gsettings set org.gnome.desktop.background picture-uri "file://$image_path"
+                gsettings set org.gnome.desktop.background picture-uri-dark "file://$image_path"
                 echo "Wallpaper updated for GNOME"
                 ;;
             cinnamon)
